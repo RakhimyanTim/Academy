@@ -1,4 +1,4 @@
 ---
-title: Getting started with Jekyll
-description: If you're new to Jekyll this is the series for you. We'll learn about the world of static site generators, install Jekyll and understand fundamental Jekyll concepts.
+title: Прокачай в себе предпринимательские навыки
+description: Если ты новичок, это эта серия для тебя. Пройди все задания и получи шанс поступить в школьный акселератор.
 ---
