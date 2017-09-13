@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-{% assign posts = page.posts | sort: "title" %}
+{% assign posts = page.posts %}
 {% assign category = page.title %}
 
 <h2 style="text-transform:capitalize;">{{ page.title }} <span class="count">({{ posts | size }})</span></h2>
 <p>{{ site.data.categories[category].description }}</p>
 
-{% assign featured_posts = "" | split: "" %}
+{% assign featured_posts = "" %}
 
 
 {% assign category-tutorials = site.data.categories[category].featured %}
