@@ -8,5 +8,5 @@ tags:
 type: Video
 set: basics
 set_order: 3
-icon: bulb
+icon: lock_outline
 ---
