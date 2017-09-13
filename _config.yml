@@ -22,7 +22,7 @@ social:
 # -----
 # Build
 
-permalink: /beginner/:title/
+permalink: /jekyll/:title/
 
 gems:
   - jekyll-sitemap
