@@ -4,7 +4,7 @@ title: Сделать видеообзор продукта/сервиса/иг�
 video_id:
 description: Результат –  ссылка на youtube.
 tags:
-  - Начинающий
+  - beginner
 type: Video
 set: basics
 set_order: 1
