@@ -4,7 +4,7 @@ title: Предложить свой навык/талант/хобби, кот�
 video_id: 
 description: Результат – ссылка на fl/youdo/avito и др.
 tags:
-  - Начинающий
+  - beginner
 type: Video
 set: basics
 set_order: 4
