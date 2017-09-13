@@ -1,29 +1,28 @@
 # ----
 # Site
 
-title: CloudCannon Academy
-url: "https://learn.cloudcannon.com"
+title: Академя ЭнБиЛабс
+url: "https://learn.enblabs.ru"
 baseurl:
 google_analytics_key: "UA-37472773-17"
-disqus_shortname: "learn-cloudcannon-com"
+disqus_shortname: ""
 newsletter_action: "//cloudcannon.us12.list-manage.com/subscribe/post?u=c2598ec08fca5843b980a7d3f&amp;id=16297bb754"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: CloudCannon and Jekyll tutorials and resources
+description: Бизнес для школьников
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: CloudCannon Academy
+  name: Академия ЭнБиЛабс
   links:
-    - https://github.com/CloudCannon/academy
 
 # -----
 # Build
 
-permalink: /jekyll/:title/
+permalink: /:title/
 
 gems:
   - jekyll-sitemap
