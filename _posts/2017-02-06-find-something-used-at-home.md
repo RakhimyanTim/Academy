@@ -8,5 +8,5 @@ tags:
 type: Video
 set: basics
 set_order: 3
-icon: lock_outline
+icon: client
 ---
