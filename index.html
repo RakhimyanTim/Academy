@@ -17,35 +17,3 @@ sets:
 	{% endfor %}
 </section>
 
-<h2>Learn more</h2>
-<p>There's so much more to learn about Jekyll. Explore the tutorials on CloudCannon Academy and become a Jekyll master!</p>
-
-<section class="categories">
-	{% assign tags = site.tags | sort %}
-	{% for tag in tags %}
-		{% assign name = tag[0] %}
-		{% assign posts = tag[1] %}
-		{% assign size = posts | size %}
-		<section class="category">
-			{% assign cat-name = name | replace: "jekyll-", " "  | strip %}
-				<h3>
-					<a href="{{ site.baseurl }}/{{ name | slugify }}/">{{ cat-name | replace: "-", " " | replace: "cloudcannon", "CloudCannon" }}</a>
-				</h3>
-
-			<ul>
-				{% assign category-tutorials = site.data.categories[cat-name].featured %}
-				{% assign category-tutorials-size = category-tutorials | size %}
-				{% for tutorial in category-tutorials %}
-					{% assign permalink = "/jekyll/" | append: tutorial | append: "/" %}
-					{% assign post = site.posts | where: "url", permalink | first %}
-					<li><a href="{{ site.baseurl }}{{ post.url }}">{% include document-icon.html icon=post.type %}{{ post.title }}</a></li>
-				{% endfor %}
-
-				{% if size > category-tutorials-size %}
-					<li><a href="{{ site.baseurl }}/{{ name | slugify }}/">{{ size | minus: category-tutorials-size }} more...</a></li>
-				{% endif %}
-
-			</ul>
-		</section>
-	{% endfor %}
-</section>
