@@ -7,6 +7,6 @@ tags:
   - Начинающий
 type: Video
 set: basics
-set_order: 1
+set_order: 4
 icon: client
 ---
