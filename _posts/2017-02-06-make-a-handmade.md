@@ -4,7 +4,7 @@ title: Сделать что-нибудь своими руками, что мо
 video_id: 
 description: Handmade – сфотографировать и описать. Результат – ссылка на объявление на avito/etsy и др.
 tags:
-  - Начинающий
+  - beginner
 type: Video
 set: basics
 set_order: 2
