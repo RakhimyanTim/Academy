@@ -1,10 +1,12 @@
-blogging:
-  description: Learn how to get the most out of your Jekyll blog.
+beginner:
+  description: Бизнес для школьников.
   featured:
-    - introduction-to-blogging
-    - using-diqus-for-comments
-    - list-posts
-    - advanced-blogging
+    - make-a-video-review
+    - make-a-handmade
+    - solve-the-problem
+    - sell-yourself
+    - make-a-budget
+    - find-something-used-at-home
 cloudcannon:
   description: Tips and tricks to improve using CloudCannon on your Jekyll site.
   featured:
