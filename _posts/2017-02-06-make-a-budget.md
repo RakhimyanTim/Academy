@@ -4,7 +4,7 @@ title: Записать свои или семейные доходы/расхо
 video_id: 
 description: Активы и пассивы. Свой бюджет. В блокнот – показать фото и выводы.
 tags:
-  - Начинающий
+  - beginner
 type: Video
 set: basics
 set_order: 6
